@@ -4,7 +4,7 @@
 Welcome to my E-Commerce Data Warehouse project! I built this to demonstrate a complete, end-to-end data pipeline using the Medallion Architecture (Bronze, Silver, and Gold layers). The goal of this project is to take raw, messy data from different systems, clean it up, and organize it so we can easily generate valuable business insights and sales predictions. I used SQL for the heavy lifting of data transformation and analysis, and Python to calculate metrics like Customer Lifetime Value (CLV) and predict future sales.
 
 ## Project Workflow
-![Project Workflow](./ASSETS/project_workflow.png)
+![Project Workflow](https://github.com/adham-labeb/E-Commerce-sales-analysis-end-to-end-project/blob/main/ASSETS/project%20work%20flow.png)
 
 _Here's how it works: First, we load the raw files just as they are into the **Bronze** layer. Next, a stored procedure kicks in to clean up the data—fixing dates, standardizing text, handling missing values—and moves it to the **Silver** layer. Finally, the clean data is organized into simple, business-ready tables (Fact and Dimension tables) in the **Gold** layer. From there, it's ready for reports, dashboards, and Python analysis!_
 
