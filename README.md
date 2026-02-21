@@ -10,7 +10,6 @@ _Here's how it works: First, loading the raw files just as they are into the **B
 
 ## Source Data Catalog
 The raw data comes from two main sources: an older CRM system and an ERP system. Before we clean it, the data is loaded into the **Bronze** layer exactly as it comes in. Here are the 6 tables to start 
-![data flow](https://github.com/adham-labeb/E-Commerce-sales-analysis-end-to-end-project/blob/main/ASSETS/data%20flow%20across%20layers.png)
 with:
 
 ### 1. **crm_cust_info**
@@ -124,6 +123,10 @@ Here's how the project files are organized:
 **3. Making it Useful (Gold Layer)**
 - Then took the clean data and organized it into a classic Star Schema.
 - creating "Dimension" tables for things we want to filter by (like `dim_customer` and `dim_product`) and a "Fact" table for the numbers (`fact_sales`). This makes the data super easy to query!
+
+
+![data flow](https://github.com/adham-labeb/E-Commerce-sales-analysis-end-to-end-project/blob/main/ASSETS/data%20flow%20across%20layers.png)
+
 
 **4. Exploring the Data**
 - We wrote basic SQL queries to check our work. We looked at total sales, checked the date ranges of our orders, and made sure our product numbers looked right.
