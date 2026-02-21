@@ -9,7 +9,9 @@ Welcome to my E-Commerce Data Warehouse project! I built this to demonstrate a c
 _Here's how it works: First, loading the raw files just as they are into the **Bronze** layer. Next, a stored procedure to clean up the data—fixing dates, standardizing text, handling missing values—and moves it to the **Silver** layer. Finally, the clean data is organized into simple, business-ready tables (Fact and Dimension tables) in the **Gold** layer. From there, it's ready for reports, dashboards, and Python analysis!_
 
 ## Source Data Catalog
-The raw data comes from two main sources: an older CRM system and an ERP system. Before we clean it, the data is loaded into the **Bronze** layer exactly as it comes in. Here are the 6 tables to start with:
+The raw data comes from two main sources: an older CRM system and an ERP system. Before we clean it, the data is loaded into the **Bronze** layer exactly as it comes in. Here are the 6 tables to start 
+![data flow](https://github.com/adham-labeb/E-Commerce-sales-analysis-end-to-end-project/blob/main/ASSETS/data%20flow%20across%20layers.png)
+with:
 
 ### 1. **crm_cust_info**
 - **Purpose:** This contains our basic customer details from the CRM.
